@@ -18,15 +18,16 @@ body {
 }
 
 #background {
-	background-image: url(images/BGtop.jpg);
 	background-repeat: repeat-x;
 	background-position: top;
 	height: 313px;
+	background-image: url(images/BGtop.jpg);
 }
 
 #wrapper {
 	display:block;
 	width: 960px;
+	height: 800px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -124,6 +125,9 @@ nav ul li img {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: -58px;
+	-moz-box-shadow:4px 4px 17px 0px rgba(119, 119, 119, 0.21);
+	-webkit-box-shadow:4px 4px 17px 0px rgba(119, 119, 119, 0.21);
+	box-shadow:4px 4px 17px 0px rgba(119, 119, 119, 0.21);
 }
 
 article {
@@ -174,6 +178,9 @@ article {
 	margin-left: auto;
 	background-image: url(images/sidebar.jpg);
 	background-repeat: no-repeat;
+	-moz-box-shadow:inset 1px 1px 4px 0px rgba(119, 119, 119, 0.6);
+-webkit-box-shadow:inset 1px 1px 4px 0px rgba(119, 119, 119, 0.6);
+box-shadow:inset 1px 1px 4px 0px rgba(119, 119, 119, 0.6);
 }
 
 a {outline : none;}
@@ -339,12 +346,11 @@ h2 {
 	line-height: 1.3em;
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: normal;
-	padding-left: 10px;
 	text-decoration: none;
 }
 
 footer {
-	width: 760px;
+	width: 960px;
 	height: 100%;
 	clear: both;
 	float: left;
@@ -355,11 +361,13 @@ footer {
 	text-decoration: none;
 }
 
-.FooterInfo {
-	width: 160px;
+.footerInfo {
+	width: 180px;
 	text-decoration: none;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline;
+	float: left;
 }
 
 footer ul li {
