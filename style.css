@@ -18,15 +18,16 @@ body {
 }
 
 #background {
-	background-image: url(images/BGtop.jpg);
 	background-repeat: repeat-x;
 	background-position: top;
 	height: 313px;
+	background-image: url(images/BGtop.jpg);
 }
 
 #wrapper {
 	display:block;
 	width: 960px;
+	height: 800px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -339,12 +340,11 @@ h2 {
 	line-height: 1.3em;
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: normal;
-	padding-left: 10px;
 	text-decoration: none;
 }
 
 footer {
-	width: 760px;
+	width: 960px;
 	height: 100%;
 	clear: both;
 	float: left;
@@ -355,11 +355,13 @@ footer {
 	text-decoration: none;
 }
 
-.FooterInfo {
-	width: 160px;
+.footerInfo {
+	width: 180px;
 	text-decoration: none;
 	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline;
+	float: left;
 }
 
 footer ul li {
