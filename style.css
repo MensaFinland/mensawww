@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 
 header,nav,article,footer {
@@ -145,6 +145,20 @@ nav ul li img {
 	font-weight: bolder;
 	letter-spacing: -0.1em;
 }
+
+.linkHeader {
+    padding-top:0.5em;
+    margin-left: -1.2em;
+}
+
+.miinus{
+    width: 10px; 
+    height: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.menu1,.menu2,.menu3,.menu4{ }
 
 .current {
 	color: #06C;
