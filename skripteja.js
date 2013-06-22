@@ -10,9 +10,13 @@
 
         /* Menun piilotus */
 		$('.miinus').click(function () {
-		    $(this).attr('src', $(this).attr('src')=="images/miinus.png"?"images/plus.png":"images/miinus.png");
-		    $('.' + $(this).attr('id').substr(6,5)).toggle(500);
-		})
+		    $(this).attr('src', $(this).attr('src') == "images/miinus.png" ? "images/plus.png" : "images/miinus.png");
+		    $('.' + $(this).attr('id').substr(6, 5)).toggle(500);
+		});
+
+		$('#forumLink').click(function () {
+		    window.location.href = 'https://www.mensa.fi/forum/';
+		});
 	});
 
 	/* Google Analytics, tilastot */
