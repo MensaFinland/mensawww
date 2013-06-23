@@ -218,16 +218,21 @@ article {
 	padding-left: 30px;
 }
 
-#mainArticle {
+.mainArticle {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: auto;
-	height: auto;
+	width: 400px;
+	height: 340px;
 	overflow:auto;
 	overflow-x: hidden;
+    overflow-y: scroll;
 }
 
+.mainArticleFull {
+	width: 530px;
+	height: 550px;
+}
 .juttu {
 	width: 390px;
 	padding-left: 5px;
