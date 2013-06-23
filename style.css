@@ -222,8 +222,8 @@ article {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: 400px;
-	height: 340px;
+	width: auto;
+	height: auto;
 	overflow:auto;
 	overflow-x: hidden;
 }
@@ -320,8 +320,8 @@ article {
 	width: 215px;
 	height: 566px;
 	display: block;
-	float: left;
-	margin-right: auto;
+	float: right;
+	margin-right: 20px;
 	margin-left: auto;
 	background-image: url(images/BGdotted.jpg);
 	background-repeat: repeat-y;
