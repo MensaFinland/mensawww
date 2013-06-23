@@ -715,3 +715,95 @@ textarea {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
+
+
+/* testikalenterisivun lomake */
+
+#wish {
+	width: 400px;
+	height: 560px;
+	display: block;
+	float: left;
+	background-image: url(images/lomakepohja.png);
+	background-repeat: no-repeat;
+}
+
+.lomakeOtsikko {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	letter-spacing: 0.02em;
+	padding-left: 40px;
+	padding-right:25px;
+	padding-top: 60px;
+	color: #06C;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.textWish {
+	color: #4c6378;
+	font-size: 0.7em;
+	line-height: 1.4em;
+	letter-spacing: 0.04em;
+	padding-top: 5px;
+	padding-left: 40px;
+	padding-right:25px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.lomakeLaatikko {
+	font-size: 0.9em;
+	line-height: 1.4em;
+	letter-spacing: 0.04em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+textarea {
+	background-color: #fff;
+	border: thin dotted #5f7d99;
+	border-radius: 5px;
+	width: 290px;
+	height: 100px;
+	margin-left: 40px;
+	padding-right: 25px;
+}
+
+#mailfrom {
+	background-color: #fff;
+	border: thin dotted #5f7d99;
+	border-radius: 5px;
+	width: 290px;
+	height: 20px;
+	margin-left: 40px;
+	padding-right: 25px;
+}
+
+#answer {
+	background-color: #fff;
+	border: thin dotted #5f7d99;
+	border-radius: 5px;
+	width: 290px;
+	height: 20px;
+	margin-left: 40px;
+	padding-right: 25px;
+}
+
+#sendbtn {
+	background-color: #79a4db;
+	border-radius: 10px;
+	width: 30%;
+	font-size: 1em;
+	line-height: 1.8em;
+	letter-spacing: 0.04em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #fff;
+	margin-left: 60%;
+	margin-top: 20px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
