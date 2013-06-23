@@ -127,15 +127,20 @@
                   <div class="pistelinja"></div><!-- end pistelinja -->
                   <div class="juttu">
 					<div><form id="wish" name="wish">
-						<h3>Toivo uutta testiä:</h3>
-						Ilmoita toiveessasi paikkaunta ja muut toiveet. 
-						Emme lähetä automaattista postia, vaan käsittelemme toiveet ja palaamme asiaan, jos se on aiheellista.
-						<div><label for="mailbody">Toive (255 merkkiä): </label><br/><textarea name="mailbody" id="mailbody" maxlength="255" style="height: 100px;width: 300px;"></textarea></div>
-						<div><label for="mailfrom">Sähköposti : </label><br/><input type="email" name="mailfrom" id="mailfrom" tooltip="Palaamme asiaan" maxlength="255" style="width: 300px;" /></div>
-						<div><label for="answer">Turvakysymys: Paljonko on viisi ynnä kolme (kirjaimin)?  </label><br/><input name="answer" type="text" id="answer" maxlength="255" /></div>
-						<div><input type="hidden" name="sendmail" id="sendmail" value="1" /><button id="sendbtn" type="submit">Lähetä</button></div>
+                  
+						<p class="lomakeOtsikko">Toivo uutta testiä</p>
+						<p class="textWish">VOIT toivoa uutta testiä. Ilmoita toiveessasi paikkaunta ja muut toiveet. </p>
+						<p class="textWish">Emme lähetä automaattista postia, vaan käsittelemme toiveet ja palaamme asiaan, jos se on aiheellista.</p>
+						<br/>
+                <div><label for="mailbody"><p class="textWish"><span class="lomakeLaatikko">Toive</span> (255 merkkiä)</p> </label><textarea name="mailbody" id="mailbody" maxlength="255"></textarea></div>
+                        
+						<div><label for="mailfrom"><p class="textWish"><span class="lomakeLaatikko">Sähköposti</span> </p></label>
+                        <input type="email" name="mailfrom" id="mailfrom" tooltip="Palaamme asiaan" maxlength="255" /></div>
+                        
+						<div><label for="answer"><p class="textWish"><span class="lomakeLaatikko">Turvakysymys</span><br/>Paljonko on viisi ynnä kolme (kirjaimin)?  </p></label>
+                        <input name="answer" type="text" id="answer" maxlength="255" /></div>
+						<div><input type="hidden" name="sendmail" id="sendmail" value="1" /><button id="sendbtn" type="submit"><p class="textWish">Lähetä</p></button></div>
 						</form>
-					</div>
                   </div><!-- end juttu -->
                   <div class="pistelinja"></div><!-- end pistelinja -->
               </div><!-- end mainArticle -->
