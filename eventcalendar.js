@@ -29,7 +29,7 @@ Array.prototype.CompareTo = function(that) {
    return this.length - that.length;
 };
 
-var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerator_1__ctor, i_UnfoldEnumerator_2__ctor, i_Set_1__ctor, i_SetIterator_1__ctor, i_GenericComparer_1__ctor, i_EventMarker__ctor, i_CreateEnumerable_1__ctor, calEvent_Vevent, calEvent_Note, String_Length, Set_Empty, Set_Contains, Set_Add, Set_1_get_Empty, SetTree_1_SetOne, SetTree_1_SetNode, SetTree_1_SetEmpty, SetTreeModule_toList, SetTreeModule_toArray, SetTreeModule_subset, SetTreeModule_spliceOutSuccessor, SetTreeModule_remove, SetTreeModule_rebalance, SetTreeModule_psubset, SetTreeModule_partitionAux, SetTreeModule_partition1, SetTreeModule_partition, SetTreeModule_notStarted, SetTreeModule_moveNext, SetTreeModule_mkIterator, SetTreeModule_mkIEnumerator, SetTreeModule_mk, SetTreeModule_minimumElementOpt, SetTreeModule_minimumElementAux, SetTreeModule_minimumElement, SetTreeModule_mem, SetTreeModule_maximumElementOpt, SetTreeModule_maximumElementAux, SetTreeModule_maximumElement, SetTreeModule_loop, SetTreeModule_iter, SetTreeModule_isEmpty, SetTreeModule_height, SetTreeModule_get_tolerance, SetTreeModule_forall, SetTreeModule_fold, SetTreeModule_filterAux, SetTreeModule_filter, SetTreeModule_exists, SetTreeModule_current, SetTreeModule_countAux, SetTreeModule_count, SetTreeModule_copyToArray, SetTreeModule_compareStacks, SetTreeModule_compare, SetTreeModule_collapseLHS, SetTreeModule_choose, SetTreeModule_alreadyFinished, SetTreeModule_add, SetTreeModule_SetOne, SetTreeModule_SetNode, Seq_Unfold, Seq_TryPickIndexedAux, Seq_TryPickIndexed, Seq_TryFind, Seq_ToList, Seq_ToArray, Seq_Skip, Seq_Scan, Seq_Reduce, Seq_OfList, Seq_OfArray, Seq_MinBy, Seq_Map2, Seq_Map, Seq_Length, Seq_IterateIndexed, Seq_Iterate, Seq_IsEmpty, Seq_Head, Seq_FromFactory, Seq_FoldIndexedAux, Seq_FoldIndexed, Seq_Fold, Seq_Filter, Seq_Enumerator, Seq_DistinctBy, Seq_Distinct, Seq_Delay, Seq_CompareWith, Seq_Choose, Range_oneStep, Range_customStep, Page_parseEventList, Page_op_Dynamic, Page_main, Page_jQuery, Page_asJQuery, Page_VeventsToMarkers, List_Tail, List_Reverse, List_IsEmpty, List_Head, List_FoldIndexedAux, List_FoldIndexed, List_Fold, List_Empty, List_CreateCons, LanguagePrimitives_UnboxGeneric, GoogleMap_showMyPosition, GoogleMap_op_Dynamic, GoogleMap_makeMap, GenericConstants_One, EventItem_mydate, EventItem_jsDateFormatToUser, EventItem_jsDateFormatToJson, EventItem_jsDateFormatCalendar, EventItem_items, EventItem_get_items, EventItem_formatDateData, EventItem_fetchQRCodeUrl, Array_ZeroCreate, Array_BoxedLength;
+var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerator_1__ctor, i_UnfoldEnumerator_2__ctor, i_Set_1__ctor, i_SetIterator_1__ctor, i_GenericComparer_1__ctor, i_EventMarker__ctor, i_CreateEnumerable_1__ctor, calEvent_Vevent, calEvent_Note, String_Length, Set_Empty, Set_Contains, Set_Add, Set_1_get_Empty, SetTree_1_SetOne, SetTree_1_SetNode, SetTree_1_SetEmpty, SetTreeModule_toList, SetTreeModule_toArray, SetTreeModule_subset, SetTreeModule_spliceOutSuccessor, SetTreeModule_remove, SetTreeModule_rebalance, SetTreeModule_psubset, SetTreeModule_partitionAux, SetTreeModule_partition1, SetTreeModule_partition, SetTreeModule_notStarted, SetTreeModule_moveNext, SetTreeModule_mkIterator, SetTreeModule_mkIEnumerator, SetTreeModule_mk, SetTreeModule_minimumElementOpt, SetTreeModule_minimumElementAux, SetTreeModule_minimumElement, SetTreeModule_mem, SetTreeModule_maximumElementOpt, SetTreeModule_maximumElementAux, SetTreeModule_maximumElement, SetTreeModule_loop, SetTreeModule_iter, SetTreeModule_isEmpty, SetTreeModule_height, SetTreeModule_get_tolerance, SetTreeModule_forall, SetTreeModule_fold, SetTreeModule_filterAux, SetTreeModule_filter, SetTreeModule_exists, SetTreeModule_current, SetTreeModule_countAux, SetTreeModule_count, SetTreeModule_copyToArray, SetTreeModule_compareStacks, SetTreeModule_compare, SetTreeModule_collapseLHS, SetTreeModule_choose, SetTreeModule_alreadyFinished, SetTreeModule_add, SetTreeModule_SetOne, SetTreeModule_SetNode, Seq_Unfold, Seq_TryPickIndexedAux, Seq_TryPickIndexed, Seq_TryFind, Seq_ToList, Seq_ToArray, Seq_Skip, Seq_Scan, Seq_Reduce, Seq_OfList, Seq_OfArray, Seq_MinBy, Seq_Map2, Seq_Map, Seq_Length, Seq_IterateIndexed, Seq_Iterate, Seq_IsEmpty, Seq_Head, Seq_FromFactory, Seq_FoldIndexedAux, Seq_FoldIndexed, Seq_Fold, Seq_Filter, Seq_Enumerator, Seq_DistinctBy, Seq_Distinct, Seq_Delay, Seq_CompareWith, Seq_Choose, Range_oneStep, Range_customStep, Page_parseEventList, Page_op_Dynamic, Page_main, Page_jQuery, Page_fetchNewPosition, Page_asJQuery, Page_VeventsToMarkers, List_Tail, List_Reverse, List_IsEmpty, List_Head, List_FoldIndexedAux, List_FoldIndexed, List_Fold, List_Empty, List_CreateCons, LanguagePrimitives_UnboxGeneric, GoogleMap_showMyPosition, GoogleMap_op_Dynamic, GoogleMap_makeMap, GoogleLatLong_parseGoogleLocation, GoogleLatLong_jQuery, GoogleLatLong_fetchCoordinates, GoogleLatLong_FetchLatLong, GenericConstants_One, EventItem_mydate, EventItem_jsDateFormatToUser, EventItem_jsDateFormatToJson, EventItem_jsDateFormatCalendar, EventItem_items, EventItem_get_items, EventItem_formatDateData, EventItem_fetchQRCodeUrl, DateOrMonth_MonthAndYear, DateOrMonth_FullDate, Array_ZeroCreate, Array_BoxedLength;
   Array_BoxedLength = (function (xs)
   {
     return xs.length;
@@ -38,12 +38,22 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   {
     return new Array(size);
   });
+  DateOrMonth_FullDate = (function (Item)
+  {
+    this.Tag = "FullDate";
+    this.Item = Item;
+  });
+  DateOrMonth_MonthAndYear = (function (Item)
+  {
+    this.Tag = "MonthAndYear";
+    this.Item = Item;
+  });
   EventItem_fetchQRCodeUrl = (function (itm)
   {
-    var _temp2;
+    var _temp3;
     var copyOfStruct = 150.000000;
-    _temp2 = copyOfStruct.toString();
-    var size = _temp2;
+    _temp3 = copyOfStruct.toString();
+    var size = _temp3;
     var baseurl = (((("http://chart.apis.google.com/chart?chs=" + size) + "x") + size) + "\u0026cht=qr\u0026choe=UTF-8\u0026chl=");
     if ((itm.Tag == "Note")) 
     {
@@ -84,7 +94,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
     jQuery(".datacontainer").css("visibility", "hidden");
     jQuery(".datacontainer").css("position", "absolute");
     var trs = dsource.getElementsByTagName("tr");
-    var _temp24;
+    var _temp37;
     var mapping = (function (i)
     {
       var tds = trs.item(i).childNodes;
@@ -119,62 +129,254 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         }
         else
         {
-          throw ("#datasource tablestructure has changed!");
-          return null;
+          if ((matchValue.CompareTo(25.000000) == 0.000000)) 
+          {
+            if ((((String_Length(s(1.000000)).CompareTo(2.000000) < 0.000000) && (String_Length(s(3.000000)).CompareTo(2.000000) < 0.000000)) && (String_Length(s(23.000000)).CompareTo(2.000000) < 0.000000))) 
+            {
+              return (function (arg0)
+              {
+                return (new calEvent_Vevent(arg0));
+              })((new i_vevent__ctor(s(0.000000), s(2.000000), EventItem_mydate(v(4.000000), v(6.000000), v(8.000000), v(10.000000), v(12.000000)), s(14.000000), s(16.000000), s(18.000000), s(20.000000), {CompareTo: (function (that)
+              {
+                var diff;
+                return 0.000000;
+              }), Item1: s(22.000000), Item2: s(24.000000)})));
+            }
+            else
+            {
+              if ((matchValue.CompareTo(5.000000) == 0.000000)) 
+              {
+                if (((String_Length(s(1.000000)).CompareTo(2.000000) < 0.000000) && (String_Length(s(3.000000)).CompareTo(2.000000) < 0.000000))) 
+                {
+                  return (function (arg0)
+                  {
+                    return (new calEvent_Note(arg0));
+                  })((new i_notification__ctor(s(0.000000), s(2.000000), s(4.000000))));
+                }
+                else
+                {
+                  var _temp39;
+                  var _temp40;
+                  var copyOfStruct = tds.length;
+                  _temp40 = copyOfStruct.toString();
+                  _temp39 = ("#datasource tablestructure has changed! " + _temp40);
+                  throw (_temp39);
+                  return null;
+                };
+              }
+              else
+              {
+                var _temp42;
+                var _temp43;
+                var _copyOfStruct = tds.length;
+                _temp43 = _copyOfStruct.toString();
+                _temp42 = ("#datasource tablestructure has changed! " + _temp43);
+                throw (_temp42);
+                return null;
+              };
+            };
+          }
+          else
+          {
+            if ((matchValue.CompareTo(5.000000) == 0.000000)) 
+            {
+              if (((String_Length(s(1.000000)).CompareTo(2.000000) < 0.000000) && (String_Length(s(3.000000)).CompareTo(2.000000) < 0.000000))) 
+              {
+                return (function (arg0)
+                {
+                  return (new calEvent_Note(arg0));
+                })((new i_notification__ctor(s(0.000000), s(2.000000), s(4.000000))));
+              }
+              else
+              {
+                var _temp45;
+                var _temp46;
+                var __copyOfStruct = tds.length;
+                _temp46 = __copyOfStruct.toString();
+                _temp45 = ("#datasource tablestructure has changed! " + _temp46);
+                throw (_temp45);
+                return null;
+              };
+            }
+            else
+            {
+              var _temp48;
+              var _temp49;
+              var ___copyOfStruct = tds.length;
+              _temp49 = ___copyOfStruct.toString();
+              _temp48 = ("#datasource tablestructure has changed! " + _temp49);
+              throw (_temp48);
+              return null;
+            };
+          };
         };
       };
     });
-    _temp24 = (function (source)
+    _temp37 = (function (source)
     {
       return Seq_Map(mapping, Seq_OfList(source));
     });
-    return _temp24(Seq_ToList(Range_oneStep(0.000000, (trs.length - 1.000000))));
+    return _temp37(Seq_ToList(Range_oneStep(0.000000, (trs.length - 1.000000))));
   });
-  EventItem_jsDateFormatCalendar = (function (md)
+  EventItem_jsDateFormatCalendar = (function (mdx)
   {
-    var patternInput = EventItem_formatDateData(md, 0.000000);
-    var y = patternInput.Item1;
-    var s = patternInput.Item6;
-    var n = patternInput.Item5;
-    var m = patternInput.Item2;
-    var h = patternInput.Item4;
-    var d = patternInput.Item3;
-    return ((((y + "") + m) + "") + d);
+    if ((mdx.Tag == "FullDate")) 
+    {
+      var md = mdx.Item;
+      var patternInput = EventItem_formatDateData(md, 0.000000);
+      var y = patternInput.Item1;
+      var s = patternInput.Item6;
+      var n = patternInput.Item5;
+      var m = patternInput.Item2;
+      var h = patternInput.Item4;
+      var d = patternInput.Item3;
+      return ((((y + "") + m) + "") + d);
+    }
+    else
+    {
+      var _s = mdx.Item;
+      return _s;
+    };
   });
-  EventItem_jsDateFormatToJson = (function (md, duration)
+  EventItem_jsDateFormatToJson = (function (mdx, duration)
   {
-    var patternInput = EventItem_formatDateData(md, duration);
-    var y = patternInput.Item1;
-    var s = patternInput.Item6;
-    var n = patternInput.Item5;
-    var m = patternInput.Item2;
-    var h = patternInput.Item4;
-    var d = patternInput.Item3;
-    return ((((((y + m) + d) + "T") + h) + n) + s);
+    if ((mdx.Tag == "FullDate")) 
+    {
+      var md = mdx.Item;
+      var patternInput = EventItem_formatDateData(md, duration);
+      var y = patternInput.Item1;
+      var s = patternInput.Item6;
+      var n = patternInput.Item5;
+      var m = patternInput.Item2;
+      var h = patternInput.Item4;
+      var d = patternInput.Item3;
+      return ((((((y + m) + d) + "T") + h) + n) + s);
+    }
+    else
+    {
+      var _s = mdx.Item;
+      return _s;
+    };
   });
-  EventItem_jsDateFormatToUser = (function (md)
+  EventItem_jsDateFormatToUser = (function (mdx)
   {
-    var patternInput = EventItem_formatDateData(md, 0.000000);
-    var y = patternInput.Item1;
-    var s = patternInput.Item6;
-    var n = patternInput.Item5;
-    var m = patternInput.Item2;
-    var h = patternInput.Item4;
-    var d = patternInput.Item3;
-    return ((((((((d + ".") + m) + ".") + y) + " ") + h) + ".") + n);
+    if ((mdx.Tag == "FullDate")) 
+    {
+      var md = mdx.Item;
+      var _temp2;
+      var z = md;
+      _temp2 = (z.getFullYear().CompareTo(1990.000000) < 0.000000);
+      if (_temp2) 
+      {
+        var _z = md;
+        return "";
+      }
+      else
+      {
+        var patternInput = EventItem_formatDateData(md, 0.000000);
+        var y = patternInput.Item1;
+        var s = patternInput.Item6;
+        var n = patternInput.Item5;
+        var m = patternInput.Item2;
+        var h = patternInput.Item4;
+        var d = patternInput.Item3;
+        return ((((((((d + ".") + m) + ".") + y) + " ") + h) + ".") + n);
+      };
+    }
+    else
+    {
+      var _s = mdx.Item;
+      if ((_s.CompareTo("0.0") == 0.000000)) 
+      {
+        return "";
+      }
+      else
+      {
+        return _s;
+      };
+    };
   });
   EventItem_mydate = (function (y, m, d, h, n)
   {
-    return (new Date(y, m, d, h, n, 0.000000));
+    if ((d.CompareTo(0.000000) == 0.000000)) 
+    {
+      return (new DateOrMonth_MonthAndYear(((m.toString() + ".") + y.toString())));
+    }
+    else
+    {
+      return (new DateOrMonth_FullDate((new Date(y, m, d, h, n, 0.000000))));
+    };
   });
   GenericConstants_One = (function ()
   {
     return 1;
   });
+  GoogleLatLong_FetchLatLong = (function (id, address)
+  {
+    var result = GoogleLatLong_fetchCoordinates(address, (function (data)
+    {
+      return GoogleLatLong_parseGoogleLocation(id, data);
+    }));
+    return result;
+  });
+  GoogleLatLong_fetchCoordinates = (function (address, callback)
+  {
+    var settings = {};
+    settings.success = (function (data, _arg2, _arg1)
+    {
+      return callback(data);
+    });
+    null;
+    var url = ("https://maps.googleapis.com/maps/api/geocode/json?sensor=false\u0026address=" + encodeURIComponent(address));
+    return jQuery.ajax(url, settings);
+  });
+  GoogleLatLong_jQuery = (function (command)
+  {
+    return jQuery(command);
+  });
+  GoogleLatLong_parseGoogleLocation = (function (id, data)
+  {
+    var matchValue = Seq_IsEmpty(Seq_OfArray(data.results));
+    if (matchValue) 
+    {
+      return (function (value)
+      {
+        ;
+      })("No results");
+    }
+    else
+    {
+      var replies = Seq_Head(Seq_OfArray(data.results));
+      var latlon = {CompareTo: (function (that)
+      {
+        var diff;
+        return 0.000000;
+      }), Item1: replies.geometry.location.lat, Item2: replies.geometry.location.lng};
+      var _temp127;
+      var _temp128;
+      var copyOfStruct = latlon.Item1;
+      _temp128 = copyOfStruct.toString();
+      _temp127 = GoogleLatLong_jQuery(("#uLatitude" + id)).val(_temp128);
+      (function (value)
+      {
+        ;
+      })(_temp127);
+      var _temp130;
+      var _temp131;
+      var _copyOfStruct = latlon.Item2;
+      _temp131 = _copyOfStruct.toString();
+      _temp130 = GoogleLatLong_jQuery(("#uLongitude" + id)).val(_temp131);
+      (function (value)
+      {
+        ;
+      })(_temp130);
+      return window.alert(("Asetettu paikka osoitteelle: " + replies.formatted_address));
+    };
+  });
   GoogleMap_makeMap = (function (markers)
   {
-    var _temp78;
-    var _temp79;
+    var _temp103;
+    var _temp104;
     var returnVal = {};
     returnVal.zoom = 4.000000;
     null;
@@ -184,14 +386,14 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
     null;
     returnVal.mapTypeId = google.maps.MapTypeId.ROADMAP;
     null;
-    _temp79 = returnVal;
-    _temp78 = (new google.maps.Map(document.getElementById("mapContainer"), _temp79));
-    var map = _temp78;
-    var _temp83;
+    _temp104 = returnVal;
+    _temp103 = (new google.maps.Map(document.getElementById("mapContainer"), _temp104));
+    var map = _temp103;
+    var _temp108;
     var action = (function (i)
     {
-      var _temp85;
-      var _temp86;
+      var _temp110;
+      var _temp111;
       var _returnVal = {};
       _returnVal.clickable = true;
       null;
@@ -210,18 +412,18 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       null;
       _returnVal.title = i.Title;
       null;
-      _temp86 = _returnVal;
-      _temp85 = (new google.maps.Marker(_temp86));
+      _temp111 = _returnVal;
+      _temp110 = (new google.maps.Marker(_temp111));
       return (function (value)
       {
         ;
-      })(_temp85);
+      })(_temp110);
     });
-    _temp83 = (function (source)
+    _temp108 = (function (source)
     {
       return Seq_Iterate(action, source);
     });
-    _temp83(markers);
+    _temp108(markers);
     var myTimer = {contents: 0.000000};
     var mapresize = (function (unitVar0)
     {
@@ -252,23 +454,6 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         var latitude = position.coords.latitude;
         var longitude = position.coords.longitude;
         var coords = (new google.maps.LatLng(latitude, longitude));
-        var _temp88;
-        var _temp89;
-        var returnVal = {};
-        returnVal.position = coords;
-        null;
-        returnVal.flat = true;
-        null;
-        returnVal.map = mymap;
-        null;
-        returnVal.title = "You are here!";
-        null;
-        _temp89 = returnVal;
-        _temp88 = (new google.maps.Marker(_temp89));
-        (function (value)
-        {
-          ;
-        })(_temp88);
         var distance = (function (tupledArg)
         {
           var marklat = tupledArg.Item1;
@@ -282,43 +467,43 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
           var c = (2.000000 * Math.atan2(Math.sqrt(a), Math.sqrt((1.000000 - a))));
           return (R * c);
         });
-        var _temp95;
-        var _temp96;
+        var _temp117;
+        var _temp118;
         var projection = (function (f)
         {
           return f;
         });
-        _temp96 = (function (source)
+        _temp118 = (function (source)
         {
           return Seq_MinBy(projection, source);
         });
-        var _temp98;
-        var _temp99;
+        var _temp120;
+        var _temp121;
         var mapping = (function (f)
         {
           return distance(f.Coordinates);
         });
-        _temp99 = (function (source)
+        _temp121 = (function (source)
         {
           return Seq_Map(mapping, source);
         });
-        _temp98 = _temp99(markers);
-        _temp95 = _temp96(_temp98);
-        var nearest = _temp95;
-        var _temp101;
-        var _temp102;
+        _temp120 = _temp121(markers);
+        _temp117 = _temp118(_temp120);
+        var nearest = _temp117;
+        var _temp123;
+        var _temp124;
         var predicate = (function (f)
         {
           var d = (distance(f.Coordinates) - nearest);
           return (d.CompareTo(20.000000) < 0.000000);
         });
-        _temp102 = (function (source)
+        _temp124 = (function (source)
         {
           return Seq_Filter(predicate, source);
         });
-        _temp101 = _temp102(markers);
-        var quiteNear = _temp101;
-        var _temp103;
+        _temp123 = _temp124(markers);
+        var quiteNear = _temp123;
+        var _temp125;
         var action = (function (f)
         {
           return (function (value)
@@ -326,11 +511,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
             ;
           })(GoogleMap_op_Dynamic(jQuery, f.Id).css("backgroundColor", "#75BDD5"));
         });
-        _temp103 = (function (source)
+        _temp125 = (function (source)
         {
           return Seq_Iterate(action, source);
         });
-        return _temp103(quiteNear);
+        return _temp125(quiteNear);
       }));
     }
     else
@@ -424,20 +609,20 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   });
   Page_VeventsToMarkers = (function (is)
   {
-    var _temp56;
-    var _temp66;
-    var _temp71;
-    var _temp72;
+    var _temp81;
+    var _temp91;
+    var _temp96;
+    var _temp97;
     var predicate = (function (i)
     {
       return (i.Id.CompareTo("") != 0.000000);
     });
-    _temp72 = (function (source)
+    _temp97 = (function (source)
     {
       return Seq_Filter(predicate, source);
     });
-    var _temp74;
-    var _temp75;
+    var _temp99;
+    var _temp100;
     var mapping = (function (i)
     {
       if ((i.Tag == "Vevent")) 
@@ -454,26 +639,38 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         }), Item1: 0.000000, Item2: 0.000000}));
       };
     });
-    _temp75 = (function (source)
+    _temp100 = (function (source)
     {
       return Seq_Map(mapping, source);
     });
-    _temp74 = _temp75(is);
-    _temp71 = _temp72(_temp74);
-    _temp66 = (function (source)
+    _temp99 = _temp100(is);
+    _temp96 = _temp97(_temp99);
+    _temp91 = (function (source)
     {
       return Seq_Distinct(source);
-    })(_temp71);
-    _temp56 = (function (source)
+    })(_temp96);
+    _temp81 = (function (source)
     {
       return Seq_ToArray(source);
-    })(_temp66);
-    var retr = _temp56;
+    })(_temp91);
+    var retr = _temp81;
     return retr;
   });
   Page_asJQuery = (function (x)
   {
     return x;
+  });
+  Page_fetchNewPosition = (function (unitVar0)
+  {
+    (function (value)
+    {
+      ;
+    })(window.alert("Suoritetaan Google-paikannus, jos ei toimi, niin koita uusiksi..."));
+    var getval = (function (item)
+    {
+      return Page_jQuery(("#" + item)).val().toString();
+    });
+    return GoogleLatLong_FetchLatLong("", ((getval("StreetAddress") + ", ") + getval("City")));
   });
   Page_jQuery = (function (command)
   {
@@ -486,7 +683,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       ;
     })(Page_parseEventList());
     var marks = Page_VeventsToMarkers(EventItem_items);
-    return GoogleMap_showMyPosition(Seq_OfArray(marks));
+    GoogleMap_showMyPosition(Seq_OfArray(marks));
+    return Page_op_Dynamic(jQuery, "fetchPosBtn").click((function (arg00_)
+    {
+      return Page_fetchNewPosition();
+    }));
   });
   Page_op_Dynamic = (function (jqx, name)
   {
@@ -521,13 +722,13 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         })(Page_asJQuery(c).appendTo(lst));
       })((function (b)
       {
-        return Page_asJQuery(b).html((((((((((((((((((((((((("\r\n            \u003ca id=\"L" + encodeURIComponent(e.get_Id())) + "\"\u003e\r\n            \u003cdiv class=\"technicaldate\"\u003e") + EventItem_jsDateFormatCalendar(e.get_StarTime())) + "\u003c/div\u003e\u003c/a\u003e\r\n            \u003cdiv class=\"timeAndCity\"\u003e") + EventItem_jsDateFormatToUser(e.get_StarTime())) + " ") + e.get_City()) + "\u003c/div\u003e\r\n            \u003cdiv class=\"location\"\u003e") + e.get_StreetAddress()) + " \u003cbr /\u003e") + e.get_LocationDetails()) + "\r\n            \u003cdiv class=\"info\"\u003e") + e.get_Title()) + ", ") + e.get_Details()) + "\u003c/div\u003e\r\n            \u003cscript type=\"text/javascript\"\u003e\r\n            $(function() {\r\n                $(\"#opener") + e.get_Id()) + "\").click(function() {\r\n                    $(\"#iQRCode\").attr(\"src\",\"") + EventItem_fetchQRCodeUrl((new calEvent_Vevent(e)))) + "\");\r\n                    $(\"#dialog\").dialog(\"open\");\r\n                });\r\n            });\r\n            \u003c/script\u003e\r\n            \u003cbutton id=\"opener") + e.get_Id()) + "\"\u003e") + jQuery("#LocalizationQrcode").text().toString()) + "\u003c/button\u003e"));
+        return Page_asJQuery(b).html((((((((((((((((((((((((((((((((("\r\n            \u003ca id=\"L" + encodeURIComponent(e.get_Id())) + "\"\u003e\u003c/a\u003e\r\n            \u003cul\u003e\r\n            \u003cli class=\"technicaldate aika\"\u003e") + EventItem_jsDateFormatCalendar(e.get_StarTime())) + "\u003c/li\u003e\r\n            \u003cli class=\"timeAndCity\"\u003e") + EventItem_jsDateFormatToUser(e.get_StarTime())) + " ") + e.get_City()) + "\u003c/li\u003e\r\n            \u003cli class=\"location\"\u003e") + e.get_StreetAddress()) + " \u003cbr /\u003e") + e.get_LocationDetails()) + "\u003c/li\u003e\r\n            \u003cli class=\"info\"\u003e") + e.get_Title()) + ", ") + e.get_Details()) + "\u003c/li\u003e\r\n            \u003c/ul\u003e\r\n            \u003cscript type=\"text/javascript\"\u003e\r\n            $(function() {\r\n                $(\"#opener") + e.get_Id()) + "\").click(function() {\r\n                    $(\"#iQRCode\").attr(\"src\",\"") + EventItem_fetchQRCodeUrl((new calEvent_Vevent(e)))) + "\");\r\n                    $(\"#dialog\").dialog(\"open\");\r\n                });\r\n                $(\"#ical") + e.get_Id()) + "\").click(function() {\r\n                    window.open(\"ical.php?itemId=") + (e.get_Id() + "00")) + "\");\r\n                });\r\n            });\r\n            \u003c/script\u003e\r\n            \u003cbutton id=\"opener") + e.get_Id()) + "\"\u003e") + Page_jQuery("#LocalizationQrcode").text().toString()) + "\u003c/button\u003e\r\n            \u003cbutton id=\"ical") + e.get_Id()) + "\"\u003e") + Page_jQuery("#LocalizationIcal").text().toString()) + "\u003c/button\u003e\r\n            \u003cp class=\"testitPistelinja\"\u003e\u003c/p\u003e\r\n            "));
       })((function (a)
       {
         return Page_asJQuery(a).attr("id", e.get_Id());
       })(Page_jQuery("\u003cdiv /\u003e").attr("class", ("myevent " + EventItem_jsDateFormatCalendar(e.get_StarTime()))))));
     });
-    var _temp4;
+    var _temp5;
     var action = (function (i)
     {
       if ((i.Tag == "Note")) 
@@ -541,15 +742,15 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         return makediv(x);
       };
     });
-    _temp4 = (function (source)
+    _temp5 = (function (source)
     {
       return Seq_Iterate(action, source);
     });
-    return _temp4(EventItem_items);
+    return _temp5(EventItem_items);
   });
   Range_customStep = (function (first, stepping, last)
   {
-    var _temp25;
+    var _temp50;
     var f = (function (x)
     {
       if ((x.CompareTo(last) <= 0.000000)) 
@@ -565,11 +766,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         return {Tag: "None"};
       };
     });
-    _temp25 = (function (seed)
+    _temp50 = (function (seed)
     {
       return Seq_Unfold(f, seed);
     });
-    return _temp25(first);
+    return _temp50(first);
   });
   Range_oneStep = (function (first, last)
   {
@@ -607,35 +808,35 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       return Seq_Delay(_f);
     })((function (unitVar0)
     {
-      var _temp28;
+      var _temp53;
       var _f = trySkipToNext;
-      _temp28 = (function (seed)
+      _temp53 = (function (seed)
       {
         return Seq_Unfold(_f, seed);
       });
-      return _temp28(Seq_Enumerator(xs));
+      return _temp53(Seq_Enumerator(xs));
     }));
   });
   Seq_CompareWith = (function (f, xs, ys)
   {
-    var _temp19;
-    var _temp20;
+    var _temp32;
+    var _temp33;
     var _f = (function (i)
     {
       return (i.CompareTo(0.000000) != 0.000000);
     });
-    _temp20 = (function (_xs)
+    _temp33 = (function (_xs)
     {
       return Seq_TryFind(_f, _xs);
     });
-    _temp19 = _temp20(Seq_Map2((function (x)
+    _temp32 = _temp33(Seq_Map2((function (x)
     {
       return (function (y)
       {
         return f(x)(y);
       });
     }), xs, ys));
-    var nonZero = _temp19;
+    var nonZero = _temp32;
     if ((nonZero.Tag == "None")) 
     {
       return (Seq_Length(xs) - Seq_Length(ys));
@@ -650,10 +851,10 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   {
     return Seq_FromFactory((function (unitVar0)
     {
-      var _temp9;
-      var _temp10;
-      _temp9 = f(_temp10);
-      return Seq_Enumerator(_temp9);
+      var _temp22;
+      var _temp23;
+      _temp22 = f(_temp23);
+      return Seq_Enumerator(_temp22);
     }));
   });
   Seq_Distinct = (function (xs)
@@ -665,16 +866,16 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   });
   Seq_DistinctBy = (function (f, xs)
   {
-    var _temp29;
+    var _temp54;
     var _f = (function (tuple)
     {
       return tuple.Item1;
     });
-    _temp29 = (function (_xs)
+    _temp54 = (function (_xs)
     {
       return Seq_Choose(_f, _xs);
     });
-    return _temp29(Seq_Scan((function (tupledArg)
+    return _temp54(Seq_Scan((function (tupledArg)
     {
       var _arg1 = tupledArg.Item1;
       var acc = tupledArg.Item2;
@@ -744,13 +945,13 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       return Seq_Delay(_f);
     })((function (unitVar0)
     {
-      var _temp36;
+      var _temp61;
       var _f = trySkipToNext;
-      _temp36 = (function (seed)
+      _temp61 = (function (seed)
       {
         return Seq_Unfold(_f, seed);
       });
-      return _temp36(Seq_Enumerator(xs));
+      return _temp61(Seq_Enumerator(xs));
     }));
   });
   Seq_Fold = (function (f, seed, xs)
@@ -804,18 +1005,18 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   });
   Seq_Iterate = (function (f, xs)
   {
-    var _temp3;
+    var _temp4;
     return Seq_Fold((function (unitVar0)
     {
       return (function (x)
       {
         return f(x);
       });
-    }), _temp3, xs);
+    }), _temp4, xs);
   });
   Seq_IterateIndexed = (function (f, xs)
   {
-    var _temp26;
+    var _temp51;
     return Seq_FoldIndexed((function (i)
     {
       return (function (unitVar1)
@@ -825,7 +1026,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
           return f(i)(x);
         });
       });
-    }), _temp26, xs);
+    }), _temp51, xs);
   });
   Seq_Length = (function (xs)
   {
@@ -844,7 +1045,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       return Seq_Delay(_f);
     })((function (unitVar0)
     {
-      var _temp23;
+      var _temp36;
       var _f = (function (_enum)
       {
         if (_enum.MoveNext()) 
@@ -860,11 +1061,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
           return {Tag: "None"};
         };
       });
-      _temp23 = (function (seed)
+      _temp36 = (function (seed)
       {
         return Seq_Unfold(_f, seed);
       });
-      return _temp23(Seq_Enumerator(xs));
+      return _temp36(Seq_Enumerator(xs));
     }));
   });
   Seq_Map2 = (function (f, xs, ys)
@@ -876,31 +1077,31 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
     {
       var _xs = Seq_Enumerator(xs);
       var _ys = Seq_Enumerator(ys);
-      var _temp14;
+      var _temp27;
       var _f = (function (_unitVar0)
       {
         if ((_xs.MoveNext() && _ys.MoveNext())) 
         {
-          var _temp16;
-          var _temp17;
-          _temp16 = {CompareTo: (function (that)
+          var _temp29;
+          var _temp30;
+          _temp29 = {CompareTo: (function (that)
           {
             var diff;
             return 0.000000;
-          }), Item1: f(_xs.get_Current())(_ys.get_Current()), Item2: _temp17};
-          return {Tag: "Some", Value: _temp16};
+          }), Item1: f(_xs.get_Current())(_ys.get_Current()), Item2: _temp30};
+          return {Tag: "Some", Value: _temp29};
         }
         else
         {
           return {Tag: "None"};
         };
       });
-      _temp14 = (function (seed)
+      _temp27 = (function (seed)
       {
         return Seq_Unfold(_f, seed);
       });
-      var _temp18;
-      return _temp14(_temp18);
+      var _temp31;
+      return _temp27(_temp31);
     }));
   });
   Seq_MinBy = (function (f, xs)
@@ -922,7 +1123,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   });
   Seq_OfArray = (function (xs)
   {
-    var _temp76;
+    var _temp101;
     var f = (function (i)
     {
       if ((i.CompareTo(Array_BoxedLength(xs)) < 0.000000)) 
@@ -938,15 +1139,15 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         return {Tag: "None"};
       };
     });
-    _temp76 = (function (seed)
+    _temp101 = (function (seed)
     {
       return Seq_Unfold(f, seed);
     });
-    return _temp76(0.000000);
+    return _temp101(0.000000);
   });
   Seq_OfList = (function (xs)
   {
-    var _temp22;
+    var _temp35;
     var f = (function (_arg1)
     {
       if ((_arg1.Tag == "Cons")) 
@@ -964,11 +1165,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         return {Tag: "None"};
       };
     });
-    _temp22 = (function (seed)
+    _temp35 = (function (seed)
     {
       return Seq_Unfold(f, seed);
     });
-    return _temp22(xs);
+    return _temp35(xs);
   });
   Seq_Reduce = (function (f, xs)
   {
@@ -984,7 +1185,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
     })((function (unitVar0)
     {
       var _xs = Seq_Enumerator(xs);
-      var _temp35;
+      var _temp60;
       var _f = (function (_arg1)
       {
         if ((_arg1.Tag == "Some")) 
@@ -1013,11 +1214,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
           }), Item1: seed, Item2: {Tag: "Some", Value: seed}}};
         };
       });
-      _temp35 = (function (_seed)
+      _temp60 = (function (_seed)
       {
         return Seq_Unfold(_f, _seed);
       });
-      return _temp35({Tag: "None"});
+      return _temp60({Tag: "None"});
     }));
   });
   Seq_Skip = (function (n, xs)
@@ -1025,7 +1226,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
     return Seq_FromFactory((function (unitVar0)
     {
       var _enum = Seq_Enumerator(xs);
-      for (var _temp90 = 1.000000; _temp90 <= n; _temp90++)
+      for (var _temp112 = 1.000000; _temp112 <= n; _temp112++)
       {
         (function (i)
         {
@@ -1033,7 +1234,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
           {
             ;
           })(_enum.MoveNext());
-        })(_temp90);
+        })(_temp112);
       };
       return _enum;
     }));
@@ -1041,7 +1242,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   Seq_ToArray = (function (xs)
   {
     var ys = Array_ZeroCreate(Seq_Length(xs));
-    var _temp27;
+    var _temp52;
     var f = (function (i)
     {
       return (function (x)
@@ -1050,11 +1251,11 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         return null;
       });
     });
-    _temp27 = (function (_xs)
+    _temp52 = (function (_xs)
     {
       return Seq_IterateIndexed(f, _xs);
     });
-    _temp27(xs);
+    _temp52(xs);
     return ys;
   });
   Seq_ToList = (function (xs)
@@ -1571,16 +1772,16 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         var r = s.Item3;
         var l = s.Item2;
         var _k = s.Item1;
-        var _temp34;
+        var _temp59;
         if (f(_k)) 
         {
-          _temp34 = SetTreeModule_add(comparer, _k, acc);
+          _temp59 = SetTreeModule_add(comparer, _k, acc);
         }
         else
         {
-          _temp34 = acc;
+          _temp59 = acc;
         };
-        var _acc = _temp34;
+        var _acc = _temp59;
         return SetTreeModule_filterAux(comparer, f, l, SetTreeModule_filterAux(comparer, f, r, _acc));
       };
     };
@@ -1862,16 +2063,16 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       {
         var hl = SetTreeModule_height(l);
         var hr = SetTreeModule_height(r);
-        var _temp30;
+        var _temp55;
         if ((hl.CompareTo(hr) < 0.000000)) 
         {
-          _temp30 = hr;
+          _temp55 = hr;
         }
         else
         {
-          _temp30 = hl;
+          _temp55 = hl;
         };
-        var m = _temp30;
+        var m = _temp55;
         return SetTreeModule_SetNode(k, l, r, (m + 1.000000));
       };
     }
@@ -1879,16 +2080,16 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
     {
       var _hl = SetTreeModule_height(l);
       var _hr = SetTreeModule_height(r);
-      var _temp31;
+      var _temp56;
       if ((_hl.CompareTo(_hr) < 0.000000)) 
       {
-        _temp31 = _hr;
+        _temp56 = _hr;
       }
       else
       {
-        _temp31 = _hl;
+        _temp56 = _hl;
       };
-      var _m = _temp31;
+      var _m = _temp56;
       return SetTreeModule_SetNode(k, l, r, (_m + 1.000000));
     };
   });
@@ -1992,16 +2193,16 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         var r = s.Item3;
         var l = s.Item2;
         var _k = s.Item1;
-        var _temp32;
+        var _temp57;
         var arg30_ = acc.Item1;
         var arg31_ = acc.Item2;
-        _temp32 = SetTreeModule_partitionAux(comparer, f, r, arg30_, arg31_);
-        var _acc = _temp32;
-        var _temp33;
+        _temp57 = SetTreeModule_partitionAux(comparer, f, r, arg30_, arg31_);
+        var _acc = _temp57;
+        var _temp58;
         var _acc1 = _acc.Item1;
         var _acc2 = _acc.Item2;
-        _temp33 = SetTreeModule_partition1(comparer, f, _k, _acc1, _acc2);
-        var __acc = _temp33;
+        _temp58 = SetTreeModule_partition1(comparer, f, _k, _acc1, _acc2);
+        var __acc = _temp58;
         var _arg30_ = __acc.Item1;
         var _arg31_ = __acc.Item2;
         return SetTreeModule_partitionAux(comparer, f, l, _arg30_, _arg31_);
@@ -2293,8 +2494,8 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   i_CreateEnumerable_1__ctor.prototype.GetEnumerator = (function (unitVar1)
   {
     var __ = this;
-    var _temp21;
-    return __.factory(_temp21);
+    var _temp34;
+    return __.factory(_temp34);
   });
   i_EventMarker__ctor = (function (Id, Title, Coordinates)
   {
@@ -2548,7 +2749,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   {
     var __ = this;
     var matchValue = __.acc;
-    var _temp6;
+    var _temp19;
     var currAcc = matchValue.Value;
     var _matchValue = __.unfold(currAcc);
     if ((_matchValue.Tag == "Some")) 
@@ -2557,15 +2758,15 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
       var nextAcc = _matchValue.Value.Item2;
       __.acc = {Tag: "Some", Value: nextAcc};
       __.current = value;
-      _temp6 = true;
+      _temp19 = true;
     }
     else
     {
       __.acc = {Tag: "None"};
       __.current = null;
-      _temp6 = false;
+      _temp19 = false;
     };
-    return ((matchValue.Tag == "Some") && _temp6);
+    return ((matchValue.Tag == "Some") && _temp19);
   });
   i_UnfoldEnumerator_2__ctor.prototype.Dispose = (function (unitVar1)
   {
@@ -2635,16 +2836,16 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
   i_vevent__ctor.prototype.Summary = (function (unitVar1)
   {
     var x = this;
-    var _temp5;
+    var _temp6;
     if ((String_Length(x.get_LocationDetails()).CompareTo(0.000000) > 0.000000)) 
     {
-      _temp5 = (x.get_LocationDetails() + ", \r\n");
+      _temp6 = (x.get_LocationDetails() + ", \r\n");
     }
     else
     {
-      _temp5 = "";
+      _temp6 = "";
     };
-    var locdet = _temp5;
+    var locdet = _temp6;
     return (((((((EventItem_jsDateFormatToUser(x.get_StarTime()) + " \r\n") + x.get_Title()) + " (") + x.get_City()) + ")\r\n") + locdet) + x.get_Details());
   });
   i_vevent__ctor.prototype.iCal = (function (unitVar1)
