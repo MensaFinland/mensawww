@@ -2,11 +2,6 @@
 /* Main list item */
 .myevent {
     background-color: #B9D1DB;
-    border-style: outset;
-    border-width: thin thick thick thin;
-    border-color: #959DFF;
-    margin: 30px;
-    padding: 5px;
     width: auto;
     height: auto;
     /*height: 150px;*/

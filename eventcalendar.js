@@ -706,7 +706,7 @@ var list_1_Nil, list_1_Cons, i_vevent__ctor, i_notification__ctor, i_mkIEnumerat
         })(Page_asJQuery(c).appendTo(lst));
       })((function (b)
       {
-        return Page_asJQuery(b).html((((("\u003cdiv class=\"timeAndCity\"\u003e" + e.get_Title()) + "\u003c/div\u003e\r\n                                       \u003cdiv class=\"details\"\u003e") + e.get_Details()) + "\u003c/div\u003e"));
+        return Page_asJQuery(b).html((((("\u003cul\u003e\u003cli class=\"timeAndCity\"\u003e" + e.get_Title()) + "\u003c/li\u003e\r\n                                       \u003cli class=\"details\"\u003e") + e.get_Details()) + "\u003c/li\u003e\u003c/ul\u003e\r\n                                       \u003cp class=\"testitPistelinja\"\u003e\u003c/p\u003e"));
       })((function (a)
       {
         return Page_asJQuery(a).attr("id", e.get_Id());
