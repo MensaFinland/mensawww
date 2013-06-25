@@ -33,48 +33,12 @@ $(document).ready(function () {
         $.datepicker.setDefaults($.datepicker.regional.fi);
         $("#datepicker").datepicker({
             onSelect: function (dateText, instr) {
-                $("." + dateText).css({ "backgroundColor": "#718DE2" });
+                $("." + dateText).attr("class", "myDateEvent");
             },
             inline: true,
             beforeShowDay: hasEventDay
         });
     });
-	
-	$(function () {
-		$("#dialog").dialog({ autoOpen: false });
-		$("#mapContainer").resizable({
-			helper: "ui-resizable-helper",
-			handles: 's, w, sw',
-			minHeight: 345,
-			minWidth: 200,
-			knobHandles: true,
-		});
-		$("#wish").submit(function(e){
-			e.preventDefault();
-			$serdata = $(this).serialize();
-			//alert($serdata);
-			
-			$.ajax({
-				cache: false,
-				type: 'POST',
-				url: 'testikalenteribl.php',
-				data: $serdata,
-				success: function(data){
-					//alert(data);
-					if(data=="safty-fail"){
-						alert("Vastasit turvakysymykseen väärin.");
-					}else{
-						alert("Palaute lähetetty. Pyrimme vastaamaan toiveeseesi.");
-						$("#wish").closest('form').find("input[type=text], textarea").val("");
-					}
-				},
-				error:function(xhr){
-					alert("Lähetys epäonnistui. " + xhr.statusText);
-				}                    
-				});
-		});
-	});
-
 });
 
 //$(function () {
