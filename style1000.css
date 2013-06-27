@@ -69,8 +69,14 @@ header {
 	padding-right: 20px;
 }
 
+
 #edge { /* tämä div puuttui - jos wrapper ei veny, tää riittää eikä tarvita edge1 tai edge2 */
+	width: 840px;
+	height: 64px;
+	display:block;
+	float: left;
 }
+
 
 #edge1 {
 	width: 640px;
