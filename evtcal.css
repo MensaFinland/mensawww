@@ -68,15 +68,22 @@
 
 /* Google maps container: */
 #mapContainer {
-	width: 200px;
-	height: 345px;
-	display: block;
-	float: right;
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: -5px;
+    width: 235px; /* lisätty 35 px */
+    height: 345px;
+    display: block;
+    float: right;
+    margin-right: auto;
+    margin-left: 10px;
     z-index: 100;
+    padding-top: 20px;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-bottom-color: #517CFF;
+    border-left-color: #517CFF;
 }
+
 .ui-resizable-helper { border: 2px dotted #00F; }
 
 /* Calendar */
@@ -88,10 +95,11 @@
 div.ui-datepicker
 { font-size:12px; margin: 10px; }  
 .datepicker{
-	width: 200px;
+	width: 230px;
 	height: 210px;
 	display: block;
 	float: left;
+	padding-left: 10px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -154,4 +162,9 @@ div.ui-datepicker
     color: lightgray
 }
 
-
+.ui-widget-header {
+	border: 1px solid #aaaaaa;
+	background: #365bb1 url(images/BGtop.jpg) 20% 20% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+}

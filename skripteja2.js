@@ -7,10 +7,11 @@
 		$("#mapContainer").resizable({
 			helper: "ui-resizable-helper",
 			handles: 's, w, sw',
-			minHeight: 570,
-			minWidth: 270,
+			minHeight: 345,
+			minWidth: 235,
 			knobHandles: true,
 		});
+		
 		//Posti-lahetys
 		$("#wish").submit(function(e){
 			e.preventDefault();
