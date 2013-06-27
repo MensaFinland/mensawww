@@ -32,12 +32,10 @@ body {
 	margin-left: auto;
 }
 
-header {
-	font-size: 36px;
+header { /* poistin font-sizen (ja fontin) koska se sai headerin putoamaan jos katsoja suurentaa fonttia */
 	color: #FFF;
 	height: 151px;
 	width: 1000px; /* lisätty 40 px */
-	font-family: 'Montserrat', sans-serif;
 }
 
 #MensaLogo {
