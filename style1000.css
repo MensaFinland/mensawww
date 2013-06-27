@@ -12,7 +12,6 @@ body,article,p,h1,h2,h3,h4,p,ul,ol,li,header,form {
 
 body {
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 1em;
 	background-image: url(images/BG.jpg);
 	background-repeat: repeat;
 }
@@ -144,8 +143,8 @@ nav ul li img {
 }
 
 .linkHeader {
-    padding-top:0.5em;
-    margin-left: -1.2em;
+	padding-top: 6px;
+	margin-left: -10px;
 }
 
 .miinus{
