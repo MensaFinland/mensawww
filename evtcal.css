@@ -1,17 +1,32 @@
 ﻿
 /* Main list item */
 .myevent {
-    background-color: #B9D1DB;
-    border-style: outset;
-    border-width: thin thick thick thin;
-    border-color: #959DFF;
-    margin: 30px;
-    padding: 5px;
     width: auto;
     height: auto;
     /*height: 150px;*/
     position:relative;
     z-index: 50;
+	border: 1px dotted #06F;
+	padding-top: 5px;
+}
+.myNearEvent {
+    width: auto;
+    height: auto;
+    /*height: 150px;*/
+    position:relative;
+    z-index: 50;
+	border: 1px dotted #06F;
+	padding-top: 5px;
+	background-color: #a4c7ff;
+}
+.myDateEvent {
+    background-color: #A4ADFF;
+    width: auto;
+    height: auto; /*height: 150px;*/
+    position: relative;
+    z-index: 50;
+    border: 1px dotted #06F;
+    padding-top: 5px;
 }
 .timeAndCity {
     font-weight: bold
