@@ -23,18 +23,64 @@ body {
 	background-image: url(images/BGtop.jpg);
 }
 
+#contact {
+	display: block;
+	position: fixed;
+	z-index: 999;
+	height: 20px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: #009;
+}
+
+#contact ul li {
+	color: #fff;
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+	padding-right: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-top: 5px;
+	text-decoration: none;
+	list-style-type: none;
+	display: inline;
+}
+
+#contact a:link {
+	text-decoration: none;
+	color: #5f7d99;
+}
+
+#contact li a {
+	text-decoration: none;
+}
+
+.contact a:visited {
+	color: #4a7eaf;   
+}
+
+#contact a:hover {
+	color: #2b81da; 
+}
+
+#contact a:active {
+	color: #2b81da;
+}
+
 #wrapper {
 	display:block;
-	width: 1000px; /* lisätty 40 px */
-	height: 840px; /* lisätty 40 px */
+	width: 1000px; 
+	height: 840px; 
 	margin-right: auto;
 	margin-left: auto;
 }
 
-header { /* poistin font-sizen (ja fontin) koska se sai headerin putoamaan jos katsoja suurentaa fonttia */
+header { 
 	color: #FFF;
 	height: 151px;
-	width: 1000px; /* lisätty 40 px */
+	width: 1000px;
 }
 
 #MensaLogo {
@@ -52,7 +98,7 @@ header { /* poistin font-sizen (ja fontin) koska se sai headerin putoamaan jos k
 }
 
 #some {
-	width: 230px; /* lisätty 40 px */
+	width: 230px;
 	height: 64px;
 	display:block;
 	float: left;
@@ -69,7 +115,7 @@ header { /* poistin font-sizen (ja fontin) koska se sai headerin putoamaan jos k
 
 #edge { 
 	width: 840px;
-	height: 64px;
+	height: 27px;
 	display:block;
 	float: left;
 }
