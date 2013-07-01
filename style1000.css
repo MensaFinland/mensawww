@@ -229,7 +229,7 @@ nav ul li img {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: 555px;
+	width: auto;
 	height: auto;
 	margin-left: 10px;
 	padding-right: 0px;
@@ -237,6 +237,7 @@ nav ul li img {
 	font-size: 0.95em;
 	line-height: 1.8em;
 	color: #2c3745;
+	background-color: #FFF;
 }
 
 #content {
@@ -244,7 +245,7 @@ nav ul li img {
 	float: left;
 	margin-right: auto;
 	margin-left: auto;
-	width: 395px;
+	width: auto;
 	height: auto;
 }
 
@@ -262,7 +263,7 @@ nav ul li img {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: 395px;
+	width: auto;
 	height: auto;
 	overflow:auto;
 	overflow: hidden;
@@ -272,14 +273,14 @@ nav ul li img {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: 395px;
+	width: auto;
 	height: auto; 
 	overflow:auto;
 	overflow: hidden;
 }
 
 .mainArticleFull {
-	width: 395px;
+	width: auto;
 	/*width: 530px;  
 	/* height: 550px; */
 	height: auto;
