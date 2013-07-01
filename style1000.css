@@ -27,25 +27,31 @@ body {
 	display: block;
 	position: fixed;
 	z-index: 999;
-	height: 25px;
+	height: 15px;
 	width: 100%;
 	left: 0px;
 	top: 0px;
 	background-color: #009;
 }
 
+#contact ul li img {
+	margin-top: -10;
+}
+
 #contact ul li {
 	color: #fff;
-	font-size: 0.75em;
+	font-size: 0.7em;
 	letter-spacing: 0.2em;
 	padding-right: 10px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	padding-left: 10px;
-	padding-top: 5px;
 	text-decoration: none;
 	list-style-type: none;
 	display: inline;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #contact a:link {
