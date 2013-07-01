@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 
 header,nav,article,footer {
@@ -34,8 +34,14 @@ body {
 	background-color: #009;
 }
 
+#contact ul {
+	margin: 0px auto;
+	width: 930px;
+	display:block;
+}
+
 #contact ul li img {
-	margin-top: -10;
+	margin-top: -10px;
 }
 
 #contact ul li {
@@ -208,7 +214,7 @@ nav ul li img {
 
 #container {
 	width: 820px;
-	height: 100%;
+	height: auto;
 	padding-right: 20px;
 	display: block;
 	float: left;
@@ -238,8 +244,8 @@ nav ul li img {
 	float: left;
 	margin-right: auto;
 	margin-left: auto;
-	width: 395%;
-	height: 100%;
+	width: 395px;
+	height: auto;
 }
 
 #news {
