@@ -374,7 +374,7 @@ nav ul li img {
 	width: 235px;
 	height: auto; 
 	display: block;
-	float: right;
+	float: left;
 	margin-right: auto;
 	margin-left: auto;
 	background-image: url(images/BGdotted.jpg);
