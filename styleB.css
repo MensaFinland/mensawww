@@ -483,6 +483,10 @@ img {border : 0;}
 	color: #4b5660;
 }
 
+#mainArticle p {
+	padding-top: 5px;
+}
+
 .text a:link {
 	text-decoration: none;
 	color: #013ba6;
