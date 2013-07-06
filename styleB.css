@@ -84,7 +84,7 @@ body {
 #wrapper {
 	display:block;
 	width: 1000px; 
-	height: 800px; 
+	height: auto; 
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -134,7 +134,7 @@ header {
 
 nav {
 	font-family: 'Montserrat', sans-serif; 
-	height: 742px; 
+	height: 700px; 
 	width: 160px;
 	padding-top: 20px;
 	float: left;
