@@ -579,7 +579,7 @@ h3 {
 
 #footerBG {
 	width: 780px;
-	height: 180px;
+	height: 120px;
 	padding-left: 35px;
 	display: block;
 	float: left;
@@ -591,7 +591,7 @@ h3 {
 
 footer {
 	width: 780px;
-	height: 180px;
+	height: 120px;
 	padding-left: 5px;
 	display: block;
 	float: left;
@@ -601,7 +601,7 @@ footer {
 }
 
 .footerInfo {
-	width: 180px;
+	width: 120px;
 	text-decoration: none;
 	padding-top: 10px;
 	padding-bottom: 10px;
