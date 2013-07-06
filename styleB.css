@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 
 header,nav,article,footer {
@@ -252,7 +252,7 @@ nav ul li img {
 #mainArticle {
 	display: block;
 	float: left;
-	margin-right: auto;
+	margin-right: -12px; /* Tilapainen IE fix: scrollbar leventaa sivua */
 	width: auto;
 	height: 540px;
 	overflow:auto;
@@ -375,7 +375,7 @@ nav ul li img {
 	background-repeat: repeat-y;
 	background-color: #FFF;
 	padding-top: 4px;
-	padding-left: 5px;
+	padding-left: 0px;
 }
 
 .banner1 {
