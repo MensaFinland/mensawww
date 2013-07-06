@@ -219,7 +219,7 @@ nav ul li img {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: auto;
+	width: 555px;
 	height: auto;
 	margin-left: 10px;
 	padding-right: 0px;
@@ -252,9 +252,7 @@ nav ul li img {
 #mainArticle {
 	display: block;
 	float: left;
-	margin-right: -12px; /* Tilapainen IE fix: scrollbar leventaa sivua */
-	width: auto;
-	height: 540px;
+	margin-right: -8px; /* Tilapainen IE fix: scrollbar leventaa sivua */
 	overflow:auto;
 	overflow-x: hidden;
 }
@@ -263,29 +261,26 @@ nav ul li img {
 	display: block;
 	float: left;
 	margin-right: auto;
-	width: auto;
-	height: auto; 
+	height: 540px;
 	overflow:auto;
 	overflow-x: hidden;
 }
 
 .mainArticleFull {
-	width: auto;
-	/*width: 530px;  
-	/* height: 550px; */
-	height: auto;
-	overflow:auto;
-	overflow-x: hidden;
-}
-.mainArticleFullHeight {
-	/* height: 550px; */
-	height: auto;
-	overflow:auto;
-	overflow-x: hidden;
+	width: 555px;
+	overflow-y: scroll;
+	height: 760px;
 }
 
 .juttu {
 	width: 365px;
+	padding-left: 5px;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+.juttuWide {
+	width: 555px;
 	padding-left: 5px;
 	padding-right: 25px;
 	padding-top: 20px;
